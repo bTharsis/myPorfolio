@@ -1,4 +1,6 @@
 import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
+import TypeWriterPCard from "./TypeWriterPCard";
+
 function PCard() {
     return (
         <>
@@ -10,13 +12,9 @@ function PCard() {
                         </h1>
                     </div>
 
-                    <div className="text-slate-400 row-start-3 row-end-5 col-start-2 col-end-6">
+                    <div className="text-zinc-100 text-4xl row-start-3 row-end-5 col-start-2 col-end-6">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Quis adipisci veniam explicabo quas. Eum,
-                            quasi! Consequatur quaerat, blanditiis esse nostrum,
-                            libero, iste deleniti omnis delectus nisi ut
-                            voluptatum non eaque!
+                            <TypeWriterPCard />
                         </p>
                     </div>
                     <div className="row-start-6 row-end-7 col-start-2 col-end-6 text-slate-50">
